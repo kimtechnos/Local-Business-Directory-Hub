@@ -1,0 +1,107 @@
+ footer.main-block.gray {
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 20px 0;
+}
+
+/* Container within footer */
+footer .container {
+  max-width: 1140px;
+  margin: auto;
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Row within footer */
+footer .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Columns within footer */
+footer .col-md-4 {
+  flex: 1;
+  margin-bottom: 30px;
+  max-width: calc(33.333% - 60px); /* Accounting for margins */
+}
+
+/* Headings within footer */
+footer .col-md-4 h5 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+/* Paragraphs within footer */
+footer .col-md-4 p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Unstyled list for Quick Links */
+footer .list-unstyle {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* List items within Quick Links */
+footer .list-unstyle li {
+  margin-bottom: 5px;
+}
+
+/* Links within Quick Links */
+footer .list-unstyle li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Icons within Quick Links */
+footer .list-unstyle li a i {
+  color: #007bff; /* Keep icons blue */
+}
+
+/* Links hover effect */
+footer .list-unstyle li a:hover {
+  color: #007bff; /* Text color changes on hover, icons remain blue */
+}
+
+/* Social icons style */
+footer .social-icons a {
+  font-size: 24px;
+  color: #007bff;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+/* Social icons hover effect */
+footer .social-icons a:hover {
+  color: #333;
+}
+
+
+/* Responsive design */
+@media (max-width: 992px) {
+  footer .col-md-4 {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Copyright text centering */
+footer .row.mt-4 {
+  margin-top: 20px;
+}
+
+footer .row.mt-4 .col-md-12 {
+  text-align: center;
+}
